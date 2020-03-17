@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e489bf3-af77-4213-b7ba-a0311b274fd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Gmail_Generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver-v0.26.0-linux32.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver-v0.26.0-linux32/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,21 +105,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="922" height="221" key="GridCell.Tab.0.bottom" timestamp="1584461253390">
+    <state width="922" height="2" key="GridCell.Tab.0.bottom" timestamp="1584468829595">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="922" height="221" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584461253390" />
-    <state width="922" height="221" key="GridCell.Tab.0.center" timestamp="1584461253388">
+    <state width="922" height="2" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584468829595" />
+    <state width="922" height="2" key="GridCell.Tab.0.center" timestamp="1584468829594">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="922" height="221" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584461253388" />
-    <state width="922" height="221" key="GridCell.Tab.0.left" timestamp="1584461253386">
+    <state width="922" height="2" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584468829594" />
+    <state width="922" height="2" key="GridCell.Tab.0.left" timestamp="1584468829593">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="922" height="221" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584461253386" />
-    <state width="922" height="221" key="GridCell.Tab.0.right" timestamp="1584461253389">
+    <state width="922" height="2" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584468829593" />
+    <state width="922" height="2" key="GridCell.Tab.0.right" timestamp="1584468829595">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="922" height="221" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584461253389" />
+    <state width="922" height="2" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584468829595" />
   </component>
 </project>
