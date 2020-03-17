@@ -10,10 +10,6 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-# CREATE_ACCOUNT_PATH = "/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[2]/div/div/span/span"
-# OPTION_POPUP_PATH =  "/html/body/div[1]/div[1]/div[2]/div[2]/div/div"
-# PERSONAL_PATH =  "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/span[1]/div[2]/div"
-
 class Navigation_Window:
     def __init__(self, url):
         self.double_click = 2
