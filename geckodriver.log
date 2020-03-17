@@ -1310,3 +1310,7 @@ JavaScript error: https://eus.rubiconproject.com/usync.html?gdpr=0&gdpr_consent=
 1584465683697	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1584465688476	Marionette	INFO	Listening on port 41013
 1584465688518	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584465797268	Marionette	INFO	Stopped listening on port 41013
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
