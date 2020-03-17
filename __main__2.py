@@ -76,8 +76,8 @@ class Navigation_Window:
                 each_elem.clear()
             print("clear")
             self.fill_in_text(first, last, user_, pass_, phone_)
-        #
-        # self.verification_(phone_)
+        
+        self.verification_(phone_)
 
     def verification_(self, phone_):
         self.find_elem_("phoneNumberId", "id").send_keys(phone_)
