@@ -43,8 +43,10 @@ class Navigation_Window:
         self.curser.implicitly_wait(5)
         try:
             for every_click in range(self.double_click):
-                self.find_elem_(self.CREATE_ACCOUNT_PATH, "xpath").click()
-                self.find_elem_(self.PERSONAL_PATH, "xpath").click()
+                create_account_btn, personal_use_btn = self.find_elem_(self.CREATE_ACCOUNT_PATH, "xpath"), \
+                                                       self.find_elem_(self.PERSONAL_PATH, "xpath")
+                self.Click_(create_account_btn)
+                self.Click_(personal_use_btn)
 
         except:
             self.Create_account(first, last, user_, pass_)
@@ -72,7 +74,7 @@ class Navigation_Window:
             for each_click in range(self.double_click):
                 self.Click_(self.find_elem_(self.USER_INFO_NEXT_PATH, "xpath"))
                 print("click")
-                
+
         except:
             for each_elem in elements:
                 each_elem.clear()
