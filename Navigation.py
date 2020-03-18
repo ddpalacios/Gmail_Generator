@@ -13,6 +13,9 @@ class Navigation_Window:
         self.CREATE_ACCOUNT_PATH = "/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[2]/div/div/span/span"
         self.OPTION_POPUP_PATH = "/html/body/div[1]/div[1]/div[2]/div[2]/div/div"
         self.PERSONAL_PATH = "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/span[1]/div[2]/div"
+        self.USER_INFO_NEXT_PATH = "/html/body/div[1]/div/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div[1]/div/span/span"
+        self.PHONE_NEXT_PATH = "/html/body/div[1]/div/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div[1]/div/span/span"
+        self.VERIFICATION_NEXT_PATH = "/html/body/div[1]/div/div[2]/div[1]/div[2]/form/div[2]/div/div[4]/div[1]/div[1]/span/span"
 
     def find_elem_(self, path, type_):
         if type_ is "id":
@@ -59,8 +62,7 @@ class Navigation_Window:
         try:
 
             for each_click in range(10):
-                x = self.curser.find_element_by_xpath(
-                    "/html/body/div[1]/div/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div[1]/div/span/span")
+                x = self.curser.find_element_by_xpath(self.USER_INFO_NEXT_PATH)
                 x.click()
                 print("click")
 
@@ -75,7 +77,7 @@ class Navigation_Window:
 
     def verification_(self, phone_):
         self.find_elem_("phoneNumberId", "id").send_keys(phone_)
-        self.find_elem_("/html/body/div[1]/div/div[2]/div[1]/div[2]/form/div[2]/div/div[2]/div[1]/div/span/span",
+        self.find_elem_(self.PHONE_NEXT_PATH,
                         "xpath").click()
 
         verify = self.find_elem_("code", "id")
@@ -83,8 +85,10 @@ class Navigation_Window:
         verify.send_keys(verification)
 
         for each_click in range(self.double_click):
-            self.find_elem_("/html/body/div[1]/div/div[2]/div[1]/div[2]/form/div[2]/div/div[4]/div[1]/div[1]/span/span",
+            self.find_elem_(self.VERIFICATION_NEXT_PATH,
                             "xpath").click()
+
+        self.confirm_bday_()
 
     def confirm_bday_(self):
         month = self.find_elem_("month", "id")
