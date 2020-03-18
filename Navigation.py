@@ -69,12 +69,10 @@ class Navigation_Window:
         elements = [first_name, last_name, username, password, confirm_pass]
         try:
 
-            for each_click in range(10):
-                x = self.curser.find_element_by_xpath(self.USER_INFO_NEXT_PATH)
-                x.click()
+            for each_click in range(self.double_click):
+                self.Click_(self.find_elem_(self.USER_INFO_NEXT_PATH, "xpath"))
                 print("click")
-
-
+                
         except:
             for each_elem in elements:
                 each_elem.clear()
