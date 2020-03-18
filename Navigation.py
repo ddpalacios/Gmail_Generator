@@ -18,10 +18,12 @@ class Navigation_Window:
         self.VERIFICATION_NEXT_PATH = "/html/body/div[1]/div/div[2]/div[1]/div[2]/form/div[2]/div/div[4]/div[1]/div[1]/span/span"
 
     def _browser_choice(self, browser="firefox"):
-        if browser.lower() is 'firefox':
-            return webdriver.Firefox()
-        elif browser.lower is 'chrome':
-            return webdriver.Chrome()
+        if browser is 'firefox':
+            driver = webdriver.Firefox()
+            return driver
+        elif browser is 'chrome':
+            driver = webdriver.Chrome()
+            return driver
 
     def find_elem_(self, path, type_):
         if type_ is "id":
