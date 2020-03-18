@@ -45,8 +45,10 @@ class Navigation_Window:
             for every_click in range(self.double_click):
                 create_account_btn, personal_use_btn = self.find_elem_(self.CREATE_ACCOUNT_PATH, "xpath"), \
                                                        self.find_elem_(self.PERSONAL_PATH, "xpath")
-                self.Click_(create_account_btn)
-                self.Click_(personal_use_btn)
+                for each_button in [create_account_btn, personal_use_btn]:
+                    
+                    self.Click_(each_button)
+              
 
         except:
             self.Create_account(first, last, user_, pass_)
