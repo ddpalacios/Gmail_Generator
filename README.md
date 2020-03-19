@@ -6,3 +6,6 @@ Selinum Library To Create Gmail Account
 File: __main__.py: Gmail Generator without classes
 
 File: __main__2.py: Gmail Generator with classes
+
+Required:
+Selelnium
